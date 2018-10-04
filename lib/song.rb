@@ -63,7 +63,13 @@ class Song
   end
   
   def self.create_from_filename(filename)
+    array = filename.split(" - ")
+    subarray = array[1].split('.')
     
+    song = self.create
+    song.name = subarray[0]
+    song.artist_name = array[0]
+    song
   end
   
   def self.destroy_all
