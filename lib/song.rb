@@ -58,6 +58,7 @@ class Song
     subarray = array[1].split('.')
     
     song = self.new_by_name(subarray[0])
+    song.artist_name = array[0]
     song
     # binding.pry
   end
