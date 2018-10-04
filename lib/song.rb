@@ -60,10 +60,10 @@ class Song
     song = self.new_by_name(subarray[0])
     song.artist_name = array[0]
     song
-    # binding.pry
   end
   
   def self.create_from_filename(filename)
+    
   end
   
   def self.destroy_all
