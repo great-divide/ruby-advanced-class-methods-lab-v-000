@@ -59,7 +59,7 @@ class Song
     
     song = self.new_by_name(subarray[0])
     
-    binding.pry
+    # binding.pry
   end
   
   def self.create_from_filename(filename)
