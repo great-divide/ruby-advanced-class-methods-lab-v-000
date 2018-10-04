@@ -57,8 +57,8 @@ class Song
     array = filename.split(" - ")
     subarray = array[1].split('.')
     
-    song = self.new
-    song.name = subarray[0]
+    song = self.new_by_name(subarray[0])
+    
     binding.pry
   end
   
